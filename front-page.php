@@ -1,10 +1,10 @@
 <?php get_header() ; ?>
 
-<div id="hero" class=".img-fluid. max-width">
-    <div class="container ">
-        <div class="row d-flex align-items-center justify-content-center h-100">
+<div id="hero" >
+    <div class="container d-flex align-items-center  h-100">
+        
         <h1>Welcom to My Shop </h1>
-        </div>
+       
         
     </div>
 </div>

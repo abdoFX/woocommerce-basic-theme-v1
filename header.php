@@ -12,10 +12,10 @@
 
 <header>
 
-<div class="container">
+<div class="container  ">
 
-<div class="row  d-flex align-items-center justify-content-between">
-    <div class="col">
+<div class="row d-flex align-items-center justify-content-between ">
+   
 
     <a href="<?php bloginfo( 'url' );?>">
     <img class=" logo img-fluid" src="<?php bloginfo( 'template_directory' ); ?>/img/logo.png" alt="">
@@ -26,7 +26,7 @@
         'menu_class' => 'top-menu'  
     )
  ) ?>
-    </div>
+    
 
 </div>
 
