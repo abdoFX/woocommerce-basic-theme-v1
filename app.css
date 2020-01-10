@@ -10469,8 +10469,18 @@ header .top-menu li a {
   color: #fff;
 }
 
-.main-container {
-  padding: 2rem 0;
+.widget {
+  border: 1px solid #999;
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 0.5rem;
+}
+.widget ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .content {
@@ -10480,5 +10490,5 @@ header .top-menu li a {
 footer {
   height: 300px;
   width: 100%;
-  background: #f0f0f0;
+  background: red;
 }

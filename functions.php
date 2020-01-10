@@ -219,13 +219,30 @@ add_action( 'wp_enqueue_scripts', 'load_js'  ) ;
 
 
 
-// Add Theme support Menu
+// Add Theme support 
 add_theme_support( 'menus' ); 
+add_theme_support('post-thumbnails' );
 
 // Register_nave mneu
 register_nav_menus( array(
 
 'top-menu' => 'Top Menu',
 
-) )
+) );
+
+
+// Add image sizes 
+add_image_size( 'post_image' ,1100,750,true)  ; 
+
+
+// add a widget 
+register_sidebar( 
+    array(
+        'name' => 'Page sidebar',
+        'id' => 'page-sidebar',
+        'class' => '',
+        'before_title' => '<h4>' ,
+        'after_title' => '</h4>', 
+    )
+    );
 ?>

@@ -14,9 +14,9 @@
 
 <div class="container  ">
 
-<div class="row d-flex align-items-center justify-content-between ">
+<div class="row  ">
    
-
+    <div class="col d-flex align-items-center justify-content-between">
     <a href="<?php bloginfo( 'url' );?>">
     <img class=" logo img-fluid" src="<?php bloginfo( 'template_directory' ); ?>/img/logo.png" alt="">
 </a>
@@ -27,6 +27,8 @@
     )
  ) ?>
     
+    </div>
+   
 
 </div>
 
