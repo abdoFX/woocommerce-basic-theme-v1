@@ -10449,6 +10449,11 @@ header .top-menu li a {
   font-weight: bold;
 }
 
+.woocommerce .woocommerce-input-wrapper {
+  width: 100%;
+  display: block;
+}
+
 #hero {
   height: 300px;
   width: 100%;
@@ -10469,10 +10474,20 @@ header .top-menu li a {
   color: #fff;
 }
 
+.content {
+  padding: 2rem 0;
+}
+
+footer {
+  height: 300px;
+  width: 100%;
+  background: red;
+}
+
 .widget {
   border: 1px solid #999;
   list-style-type: none;
-  margin: 0;
+  margin: 2rem 0;
   padding: 1rem;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   border-radius: 0.5rem;
@@ -10483,12 +10498,9 @@ header .top-menu li a {
   padding: 0;
 }
 
-.content {
-  padding: 2rem 0;
-}
-
-footer {
-  height: 300px;
-  width: 100%;
-  background: red;
+.blog-post {
+  padding: 1rem;
+  margin: 2rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 0.5rem;
 }

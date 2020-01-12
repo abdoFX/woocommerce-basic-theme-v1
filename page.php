@@ -5,14 +5,16 @@
     <div class="container">
         <div class="row">
                 <div class="col-lg-3">
-                    <div class="sticky-top" style="top:50px">
+                    <div class="sticky-top side-bar" style="top:50px">
                     
                         <?php get_sidebar(  ); ?>
                     </div>
                
                 </div>
                 <div class="col-lg-9">
-                    <img src="<?php the_post_thumbnail_url( 'post_image');?>" class="img-fluid" alt="">
+                <?php if(has_post_thumbnail(  )   ): ?> 
+                        <img src="<?php the_post_thumbnail_url( 'post_image');?>" class="img-fluid" alt="">
+                         <?php endif ; ?>
                     
                     <h1><?php the_title() ; ?> </h1>
                         <?php if(have_posts(  )) : while(have_posts(  )) : the_post(  ); ?>
